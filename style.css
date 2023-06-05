@@ -137,10 +137,25 @@ a {
 .header {
   background-color: #1f2937;
   color: white;
+  padding: 1rem;
 }
 
 .header nav {
   display: flex;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header nav ul li {
+  padding-left: 1rem;
+}
+
+.header nav > * {
+  flex: 1;
 }
 
 .header .logo {
@@ -150,5 +165,5 @@ a {
 
 /* Hero */
 #hero {
-  background-color: #1f2937x;
+  background-color: #1f2937;
 }
