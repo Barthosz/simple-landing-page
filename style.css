@@ -133,6 +133,26 @@ a {
   color: inherit;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Classes */
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
 /* Header */
 .header {
   background-color: #1f2937;
@@ -148,6 +168,8 @@ a {
 .header nav ul {
   display: flex;
   justify-content: flex-end;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .header nav ul li {
@@ -166,4 +188,29 @@ a {
 /* Hero */
 #hero {
   background-color: #1f2937;
+  display: flex;
+  padding: 5rem 0;
+}
+
+.action-call {
+  flex: 1;
+  padding-right: 1.5rem;
+}
+
+#hero .img {
+  flex: 1;
+  background: gray;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h1 {
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+#hero p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
