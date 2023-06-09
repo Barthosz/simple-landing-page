@@ -150,8 +150,19 @@ a {
 .button {
   color: #f9faf8;
   background-color: #3882f6;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.button_border {
+  border: 2px solid #f9faf8;
+}
+
+/* Global */
+html {
+  font-family: "Roboto", sans-serif;
 }
 /* Header */
 .header {
@@ -183,6 +194,7 @@ a {
 .header .logo {
   color: #f9faf8;
   font-size: 24px;
+  font-weight: bold;
 }
 
 /* Hero */
@@ -208,9 +220,66 @@ a {
 #hero h1 {
   color: #f9faf8;
   font-size: 48px;
+  font-weight: bolder;
 }
 
 #hero p {
   font-size: 18px;
   color: #e5e7eb;
+  padding-bottom: 1rem;
+}
+
+/* Information section */
+#information {
+  padding: 2rem 0 3rem 0;
+}
+
+#information h1 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+/* Quote section */
+.quote {
+  background: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote h2 {
+  padding-top: 5rem;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  text-align: right;
+  padding-bottom: 5rem;
+}
+
+/* Call to action */
+.call-action {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 5px;
+  margin: 4rem auto;
+}
+
+.container {
+  padding: 2rem 4rem;
+  justify-content: space-between;
+}
+
+/* Footer */
+.footer {
+  background: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 2rem 0;
 }
